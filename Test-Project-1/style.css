@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+/* navbar */
+
+.nav{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    margin-left: 100px;
+}
+.nav-items>a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+.nav-img>a{
+    padding: 0px 15px;
+}
+.nav-img{
+    margin-right: 80px;
+}
+
+/* .list{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 100px;
+    gap: 20px;
+} */
+
+/* hero section */
+
+.hero1{
+    background-image: url(/images/hero1.png);
+    width: 100%;
+    height: 430px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
+.hero1>p,h1{
+    margin-left: 100px;
+    display: flex;  
+}
+.hero1>h1{
+    font-size:50px;
+}
+.hero1>p{
+    margin-bottom: 100px;
+}
+
+/* hero section 1-1 */
+
+.hero1-1{
+    width: 80%;
+    height: auto;
+    margin-left: 5%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 321px 126px 277px 1fr 2fr;
+    grid-template-areas: 
+    "a b"
+    "c b"
+    "c d"
+    "c f"
+    "e f";
+    
+}
+.hi1{
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 321px;
+    grid-area: a;
+    background-color: red;
+    background-image: url(/images/h1-img.png);
+    background-position: center;
+}
+.hi2{
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 447px;
+    grid-area: b;
+    background-color: blue;
+    background-image: url(/images/h2-img.png);
+    background-position: center;
+}
+.hi3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 561px;
+    grid-area: c;
+    background-color: violet;
+    background-image: url(/images/h3\ img.png);
+    background-position: center;
+}
+.hi4{
+    width: 600px;
+    height: 277px;
+    grid-area: d;
+    background-color: red;
+    background-image: url(/images/h4-img.png);
+}
+.hi5{
+    width: 600px;
+    height: 321px;
+    grid-area: e;
+    background-color: orange;
+    background-image: url(/images/h5-img.png);
+}
+.hi6{
+    width: 600px;
+    height: 485px;
+    grid-area: f;
+    background-color: violet;
+    background-image: url(/images/h6-img.png);
+}
+
+.btn1{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 2px;
+}
+.hero-img2{
+    background-image: url(/images/hero-img2.png);
+    width: 100%;
+    height: 622px;
+    background-position: center;
+}
+.featured-in{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.f1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+.fbi1{
+    width: 203px;
+    height: 51px;
+    background-image: url(/images/forbes.png);
+    background-repeat: no-repeat;
+}
+.fbi2{
+    width: 127px;
+    height: 63px;
+    background-image: url(/images/gq.png);
+    background-repeat: no-repeat;
+}
+.fbi3{
+    width: 258px;
+    height: 38px;
+    background-image: url(/images/esq.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.f2>p{
+    justify-content: center;
+
+}
+
+/* Login Page */
+
+.form {
+    background-color: #fff;
+    display: block;
+    padding: 1rem;
+    max-width: 350px;
+    margin-right: 100px;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container input, .form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+  }
+  
+  .input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .submit {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: #682A2A;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    text-decoration: underline;
+  }
+.sign-in{
+    width: 100%;
+    height: 100vh;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sign-in-img{
+    background-image: url(/images/premium_photo-1668359407785-ac5dca1de611.jpeg);
+    width: 800px;
+    height: 100vh;
+    background-position: center;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px ;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 300px;
+}
+.footer-section links{
+    margin-left: 100px;
+}
+.footer-section h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section ul li a i {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
